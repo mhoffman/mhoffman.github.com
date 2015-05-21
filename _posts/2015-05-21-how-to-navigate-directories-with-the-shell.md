@@ -100,7 +100,7 @@ synchronizes it using e.g. [git](https://git-scm.com/), and bash completion
     fi
 
 
-Another net bash option is 
+Another neat bash option is
 
     shopt -s cdspell
 
@@ -159,7 +159,7 @@ Extra bells and whistles in those function are
 
 - instead of `popd` you can also use `bd` like `back directory`
 - `bd` also accepts a number `n` as an argument which let's you step back `n` directories at a time
-- if the `cd` argument is a file instead of a directory it will assume that you want to edit it as a text file and open it in you favorite editor. 
+- if the `cd` argument is a file instead of a directory it will assume that you want to edit it as a text file and open it in you favorite editor.
 
 You can still use `dirs` to list the history and adjust the function above to your taste.
 
@@ -175,7 +175,7 @@ you put
     bind '"\e[A":history-search-backward'
 
 into your `/.bashrc` and have started typing part of a command it will only jump to
-those commands in the history that also start with the same fragment of a command. This is actually quite useful for any command line work and therefore the default setting in [IPython](http://ipython.org/) but also useful for `cd`. So 
+those commands in the history that also start with the same fragment of a command. This is actually quite useful for any command line work and therefore the default setting in [IPython](http://ipython.org/) but also useful for `cd`. So
 
     cd <up-arrow><up-arrow> ...
 
