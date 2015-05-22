@@ -7,38 +7,21 @@ title: How to navigate directories efficiently and quickly with bash
 
 
 
-During my everyday work as a knowledge worker running calculations, analyzing data, and developing
-code from the command-line *changing directories* is an extremely frequent activity.
-In fact changing directories is the basic mode of operation to walk between different
-tasks, context, or work spaces. When first started  using the shell the only command I knew was
-`cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly
-reduces the time needed to change directories. Below I share the 4 tricks I use frequently to jump
-to directories which not only helps me to work faster but also helps me to concentrate more on the
-content of work and less on the cognitive load of remembering long subdirectories. Furthermore I use all tricks together for maximum efficiency and I hope they make
-you more productive, too.
-
-- [Max Out `cd`]
-- [Configure $CDPATH to your workflow]
-- [Turbo-charge cd with push/popd]
-- [Jump more efficiently into the history]
-
-## Max Out `cd`
+During my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the command-line *changing directories* is an extremely frequent activity.  In fact changing directories is the basic mode of operation to walk between different tasks, context, or work spaces. When first started  using the shell the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share the 4 tricks I use frequently to jump to directories which not only helps me to work faster but also helps me to concentrate more on the content of work and less on the cognitive load of remembering long subdirectories. Furthermore I use all tricks together for maximum efficiency and I hope they make you more productive, too.
 
 
-This first tip focuses solely on using all capabilities of the `cd` command.
-The most common form of using `cd` is
+## Max Out cd
+
+
+This first tip focuses solely on using all capabilities of the `cd` command.  The most common form of using `cd` is
 
     cd directory
 
-where `directory` can be either a `./relative` or an `/absolute` path. Also quite well-known
-is that `..` is an alias for the directory above the current directory, `../..` the one above that
-and so on. Maybe less well-known is that `~` is an alias for one's home directory. However an even faster way to go there
-directly is to simp skip the `directory` argument and just use
+where `directory` can be either a `./relative` or an `/absolute` path. Also quite well-known is that `..` is an alias for the directory above the current directory, `../..` the one above that and so on. Maybe less well-known is that `~` is an alias for one's home directory. However an even faster way to go there directly is to skip the `directory` argument and just use
 
     cd
 
-Furthermore `-` is an alias for the previous directory. So `cd -` is like a back-button for `cd` with works for exactly one step in the
-history. Using `cd -` repeatedly results in jump back and forth between two directories.
+Furthermore `-` is an alias for the previous directory. So `cd -` is like a back-button for `cd` that works for exactly one step in the history. Using `cd -` repeatedly results in jumping back and forth between two directories.
 
 I also find it useful to alias `cd ..` like
 
@@ -54,8 +37,7 @@ and there is no reason to stop there, so adding
 can bring you up many more directories by just adding dots (...) :-).
 
 
-Another neat short hand is `!$` which is an alias for the last argument of the previous command. This can be handy if one
-create a new directory and want to change into it without typing the the directory again. So commands would be
+Another neat short hand is `!$` which is an alias for the last argument of the previous command. This can be handy if one creates a new directory and wants to change into it without typing the the directory again. So commands would be
 
     mkdir -p make/new/directory
     cd !$
@@ -66,32 +48,17 @@ and you are there.
 
 ## Configure $CDPATH to your workflow
 
-The next tip is efficient use of the `CDPATH` variable. Almost everyone using a shell is familiar with the
-importance of the `PATH` variable. The `PATH` variable mean that whenever one enters a `command` the shell
-will look up the directories listed in the `PATH`, search for executable files and then executes
-the call the first executable it finds named `command` in the order listed in `PATH`.
+The next tip is efficient use of the `CDPATH` variable. Almost everyone using a shell is familiar with the importance of the `PATH` variable. The `PATH` variable means that whenever one enters a `command` the shell will look up the directories listed in the `PATH`, search for executable files and then executes the first executable it finds named `command` in the order listed in `PATH`.
 
-So there is a closely related variable named CDPATH which is
-the analog for `cd`. When you enter
+So there is a closely related variable named CDPATH which is the analog for `cd`. When you enter
 
     cd directory
 
-`cd` will search all directories listed in `CDPATH` and jump to the first directory it finds in the order
-listed in `CDPATH`. The default setting is `CDPATH=.`, which means `cd` only search the current working directory.
-But there is no reason to stop where. My `~/.bashrc` contains
+`cd` will search all directories listed in `CDPATH` and jump to the first directory it finds in the order listed in `CDPATH`. The default setting is `CDPATH=.`, which means `cd` only searches the current working directory.  But there is no reason to stop where. My `~/.bashrc` contains export CDPATH=.:~:~/src:~/calculations:~/ssh_mounts
 
-    export CDPATH=.:~:~/src:~/calculations:~/ssh_mounts
+With this line I can always directly jump directly to any directoy below the current directory, the home directory, a directory named `src` for software projects, a directory for `calculations`, and a directory named `ssh_mounts` that may link to other servers linked via the [sshfs](http://de.wikipedia.org/wiki/SSHFS) program.
 
-With this line I can always directly jump directly to any directoy below
-the current directory, the home directory, a directory named `src` for
-software projects, a directory for `calculations`, and a directory
-named `ssh_mounts` that may link to other servers linked via the
-[sshfs](http://de.wikipedia.org/wiki/SSHFS) program.
-
-This helps to keep directories for different types of activities apart
-while also allowing for quick changes between them. This becomes even more
-powerful if one has only one `~/.bashrc` for all user accounts and
-synchronizes it using e.g. [git](https://git-scm.com/), and bash completion
+This helps to keep directories for different types of activities apart while also allowing for quick changes between them. It is more powerful if one has only one `~/.bashrc` for all user accounts and synchronizes it using e.g. [git](https://git-scm.com/), and bash completion
 
     if [ -f /etc/bash_completion ]; then
       . /etc/bash_completion
@@ -104,19 +71,13 @@ Another neat bash option is
 
     shopt -s cdspell
 
-which automatically correct small typos in directories and jump to the
-best guess of existing directories.
+which automatically corrects small typos in directory names and jumps to the best guess of existing directories.
 
 [up](#top)
 
 ## Turbo-charge cd with push/popd
 
-Another command less well known than `cd` is `pushd` and `popd`.
-`pushd` stands for *push directory* and it changes the current working
-directory but also *pushes* the directory that one left onto a history stack.
-`popd` on the other hand stands for *pop directory* which *pop* the last visited
-directory from the history stack. The command `dirs` lists the directories
-currently stacked on the history. So for example
+Another command less well known than `cd` is `pushd` and `popd`.  `pushd` stands for *push directory* and it changes the current working directory but also *pushes* the directory that one left onto a history stack.  `popd` on the other hand stands for *pop directory* which *pops* the last visited directory from the history stack. The command `dirs` lists the directories currently stacked on the history. So for example
 
     pushd a
     pushd b
@@ -125,11 +86,7 @@ currently stacked on the history. So for example
 
 brings you two directory `b`.
 
-`pushd` and `popd` are two really great command
-and they are hugely useful in scripts to cleanly enter and exit directories
-in shell-scripts. The ony question is why there are so many characters to
-type and why `cd` doesn't have that feature built in. To fix this have the
-following two function in my `~/.bashrc` which overrides `cd`:
+`pushd` and `popd` are two really great commands and they are hugely useful in scripts to cleanly enter and exit directories in shell-scripts. The only question is why there are so many characters to type and why `cd` doesn't have that feature built in. To fix this put the following two functions into your `~/.bashrc` which overrides `cd`:
 
     function cd() {
       if [ "$#" = "0" ]
@@ -168,19 +125,16 @@ You can still use `dirs` to list the history and adjust the function above to yo
 ## Jump more efficiently into the history
 
 
-The last tip is a short but powerful to faster reuse command from the bash history. Basically the up-arrow jump the previous command in the history. However this quickly becomes very tedious if one jump 5 or 10 or more command back in history. Instead if
+The last tip is a short but powerful one to faster reuse commands from the history. Basically the up-arrow jumps to the previous command in the history. However this quickly becomes very tedious if one jumps 5 or 10 or more commands back in history. Instead if
 you put
 
     bind '"\e[A":history-search-backward'
     bind '"\e[A":history-search-backward'
 
-into your `/.bashrc` and have started typing part of a command it will only jump to
-those commands in the history that also start with the same fragment of a command. This is actually quite useful for any command line work and therefore the default setting in [IPython](http://ipython.org/) but also useful for `cd`. So
+into your `/.bashrc` and had started typing part of a command it will only jump to those commands in the history that also start with the same fragment of a command. This is actually quite useful for any command line work and therefore the default setting in [IPython](http://ipython.org/) but also useful for `cd`. So
 
     cd <up-arrow><up-arrow> ...
 
-let's you quick navigate through previous `cd` commands.
-
-That's all I have. Best of luck with these tricks and happy computing.
+let's you quickly navigate through previous `cd` commands.
 
 [up](#top)
