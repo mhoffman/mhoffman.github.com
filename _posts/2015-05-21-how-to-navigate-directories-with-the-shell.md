@@ -56,7 +56,7 @@ So there is a closely related variable named CDPATH which is the analog for `cd`
 
 `cd` will search all directories listed in `CDPATH` and jump to the first directory it finds in the order listed in `CDPATH`. The default setting is `CDPATH=.`, which means `cd` only searches the current working directory.  But there is no reason to stop where. My `~/.bashrc` contains export CDPATH=.:~:~/src:~/calculations:~/ssh_mounts
 
-With this line I can always directly jump directly to any directoy below the current directory, the home directory, a directory named `src` for software projects, a directory for `calculations`, and a directory named `ssh_mounts` that may link to other servers linked via the [sshfs](http://de.wikipedia.org/wiki/SSHFS) program.
+With this line I can always directly jump directly to any directory below the current directory, the home directory, a directory named `src` for software projects, a directory for `calculations`, and a directory named `ssh_mounts` that may link to other servers linked via the [sshfs](http://de.wikipedia.org/wiki/SSHFS) program.
 
 This helps to keep directories for different types of activities apart while also allowing for quick changes between them. It is more powerful if one has only one `~/.bashrc` for all user accounts and synchronizes it using e.g. [git](https://git-scm.com/), and bash completion
 
@@ -84,7 +84,7 @@ Another command less well known than `cd` is `pushd` and `popd`.  `pushd` stands
     pushd c
     popd
 
-brings you two directory `b`.
+brings you to directory `b`.
 
 `pushd` and `popd` are two really great commands and they are hugely useful in scripts to cleanly enter and exit directories in shell-scripts. The only question is why there are so many characters to type and why `cd` doesn't have that feature built in. To fix this put the following two functions into your `~/.bashrc` which overrides `cd`:
 
