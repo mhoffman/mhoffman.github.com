@@ -1,9 +1,9 @@
 ---
 layout: default
-title: How to navigate directories efficiently and quickly with bash
+title: How to navigate directories faster with bash
 ---
 
-# How to navigate directories efficiently and quickly with bash
+# How to navigate directories faster with bash
 
 
 
