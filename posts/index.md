@@ -3,13 +3,15 @@ layout: default
 title: posts
 ---
 
-# Random Stuff I Wrote
+# Blog
 
 ---
 
 {% for post in site.posts %}
 {{ post.date | date_to_string }}
 
-{{ post.content }}
----
+[{{ post.title }}]({{ post.url}})
+
+{{ post.excerpt }}
+
 {% endfor %}
