@@ -3,4 +3,9 @@ layout: default
 title: mhoffman.github.com/projects/
 ---
 
-# Coming soon ...
+# kmos
+
+[kmos](https://github.com/mhoffman/kmos) is a python framework suitable for fast setup and evaluation
+of lattice kinetic Monte  Carlo models. It basically allows you develop your model with as little
+coding a necessary and you can make nice movies, too. Please check out the [documentation](http://kmos.readthedocs.org/en/latest/)
+and the [paper](http://arxiv.org/pdf/1401.5278.pdf) ([paywall](http://www.sciencedirect.com/science/article/pii/S001046551400126X)).
