@@ -1,1 +1,3 @@
-console.log('This would be the main JS file.');
+$(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+}).attr('target', '_blank');
