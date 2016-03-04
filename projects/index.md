@@ -9,4 +9,4 @@ title: mhoffman.github.com/projects/
 
 ## wikiexplore
 
-[wikiexplore](http://wikiexplore.herokuapp.com/) is a single-page app that helps exploring one's geographical environment by leveraging the power of OpenStreetMap and Wikipedia.
+[wikiexplore](http://wikiexplore.herokuapp.com/) is a single-page app that helps exploring one's geographical environment by leveraging the power of OpenStreetMap and Wikipedia. (Give it a second to load initially.)
