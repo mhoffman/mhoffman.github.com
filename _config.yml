@@ -1,4 +1,4 @@
-source: _source
+source: ../mhoffman.github.com
 destination: _deploy
 kramdown:
     input: GFM
