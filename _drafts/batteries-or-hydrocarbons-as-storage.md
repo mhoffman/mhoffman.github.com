@@ -1,4 +1,9 @@
-# Batteries or Hydrocarbons as solar fuels
+---
+layout: default
+title: Batteries or Hydrocarbons as Solar Fuels
+---
+
+# Batteries or Hydrocarbons as Solar Fuels
 
 The limited sustainabilty of using fossil fuels is today really obvious for two reasons:
 humanity is using fossil fuels at a rate that is faster than new ones are being produced
@@ -21,7 +26,9 @@ In this sense hydrocarbons can be viewed as a battery as if one used an electric
 force to reduce the number of carbon-oxygen bonds and replace them by carbon-hydrogen bonds
 
 
-## Batteries
+
+## Bottom-Up
+### Batteries
 
 Pros:
 
@@ -34,7 +41,7 @@ Cons:
 - potentially limited by availability of storage medium, e.g. Li
 
 
-## Liquid hydrocarbons
+### Liquid hydrocarbons
 
 Pros:
 
@@ -48,6 +55,9 @@ Cons:
 - discharge 
 
 
+## Top-Down
 
-As the need for a more sustia
+- how can cargo ships and air planes run on batteries?
+- is there really enough Li for the possible global demand of batteries?
+- What is the break-even point for overpotential?
 

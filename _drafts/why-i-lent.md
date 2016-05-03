@@ -1,3 +1,8 @@
+---
+layout: default
+title: Why I Lent
+---
+
 # How lenting and meditation has helped my through my PhD
 
 Today I would like to today about why I picked up the practice of lenting alcohol two years ago and I intend
