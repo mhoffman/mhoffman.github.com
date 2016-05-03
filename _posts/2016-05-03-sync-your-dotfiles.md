@@ -1,10 +1,10 @@
 ---
 layout: default
-title: How to Stay Sane in A Multihost Environment
+title: Sync your dotfiles
 ---
 
 
-# How to Stay Sane in A Multihost Environment
+# Sync your Dotfiles
 
 Consider the following scenario: you are routinely logging in and out of several different clusters or hosts. On some machines you need some special settings, environment variables, shortcuts. Then there are nifty terminal shortcuts which you acquired over time and you put them into your `.bashrc` in machine A and you would like to have them on machine B. But first that means that you need to log into machine copy that code and put it into the `.bashrc` on machine B, `source ~/.bashrc`. While you do that you notice that some nifty hack/alias/function on machine B might also be useful on machine B. But that nifty aliases come mixed in a code block of which some lines you already on machine A.  Now what do you do? You could give up leaving with all these fragmented work environments and never remember what command works where.  Or you could just copy the entire file on machine B over the one at machine A since everything is now already merged on B. Great!  But hey wasn't there this one line on machine A which sets this variables that took you 2.5 hours to figure out but it is crucial for submitting jobs in parallel or linking with the latest, greatest working version of MKL? Does it sound familiar?
 
