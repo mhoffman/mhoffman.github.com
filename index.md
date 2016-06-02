@@ -3,7 +3,9 @@ layout: default
 title: mhoffman.github.io ~ Notes about heterogeneous catalysis, software, and more.
 ---
 
+<div align="right">
 ![Me]({{ site.url}}/images/MH_cropped.png)
+</div>
 
 # Welcome
 
