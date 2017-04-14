@@ -17,4 +17,4 @@ The [Castep interface](https://gitlab.com/ase/ase/blame/master/ase/calculators/c
 who wrote most of the parsing, to leverage the awesome
 functionalities of the [Atomic Simulation Environment](https://wiki.fysik.dtu.dk/ase/) with the plane-wave pseudo-potential DFT Code [CASTEP](http://castep.org/).
 It has been merged into ASE and received maintenance from [different people](https://gitlab.com/ase/ase/blame/master/ase/calculators/castep.py).
-Special feature: keywords are processed from invoking CASTEP binary so the interface can automatically deal with newly implemented features in CASTEP Code.
+Secret sauce: keywords are processed from invoking CASTEP binary so the interface can automatically deal with newly implemented features in CASTEP Code.
