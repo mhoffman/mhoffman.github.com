@@ -21,4 +21,4 @@ Secret sauce: keywords are processed from invoking CASTEP binary so the interfac
 
 ## Made In Democracy
 
-A simple [mobile app](https://github.com/mhoffman/MadeInDemocracy) that let's you look-up indicators from your phone about the state of democracy, worker's rights, and freedom of press while shopping.
+A simple [mobile app](https://expo.io/@mjhoffmann/MadeInDemocracy) [(source)](https://github.com/mhoffman/MadeInDemocracy) that let's you look-up indicators from your phone about the state of democracy, worker's rights, and freedom of press while shopping.
