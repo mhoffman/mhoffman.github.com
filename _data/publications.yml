@@ -1,8 +1,14 @@
+- title: "A practical approach to the sensitivity analysis for kinetic Monte Carlo simulation of heterogeneous catalysis"
+  authors: Max J. Hoffmann, Felix Engelmann, Sebastian Matera
+  date: 2017
+  journal: The Journal of Chemical Physics
+  doi:  10.1063/1.4974261
+  arxiv: 1611.07554
+
 - title: "A framework for scalable adsorbate-adsorbate interaction models"
   authors: Max J Hoffmann, Andrew Medford, Thomas Bligaard
-  data: 2016
   journal: The Journal of Physical Chemistry C
-  date: "2016, accepted"
+  date: 2016
   doi: 10.1021/acs.jpcc.6b03375
   
 - title: "Evidence for the Active Phase of Heterogeneous Catalysts through In Situ Reaction Product Imaging and Multiscale Modeling"
