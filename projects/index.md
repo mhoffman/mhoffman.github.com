@@ -18,6 +18,7 @@ functionalities of the [Atomic Simulation Environment](https://wiki.fysik.dtu.dk
 It has been merged into ASE and received maintenance from [different people](https://gitlab.com/ase/ase/blame/master/ase/calculators/castep.py).
 Secret sauce: keywords are processed from invoking CASTEP binary so the interface can automatically deal with newly implemented features in CASTEP Code.
 
+<hr />
 
 ### dbmi
 
