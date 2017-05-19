@@ -22,7 +22,7 @@ Secret sauce: keywords are processed from invoking CASTEP binary so the interfac
 
 ### dbmi
 
-The [dbmi][https://github.com/mhoffman/dbmi] module implements the adsorbate-adsorbate interaction framework presented in [J. Phys. Chem. C, 2016, 120 (24), pp 13087–13094](https://dx.doi.org/10.1021/acs.jpcc.6b03375).
+The [dbmi](https://github.com/mhoffman/dbmi) module implements the adsorbate-adsorbate interaction framework presented in [J. Phys. Chem. C, 2016, 120 (24), pp 13087–13094](https://dx.doi.org/10.1021/acs.jpcc.6b03375).
 
 ## Side Projects
 
