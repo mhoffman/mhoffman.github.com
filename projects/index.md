@@ -18,11 +18,11 @@ functionalities of the [Atomic Simulation Environment](https://wiki.fysik.dtu.dk
 It has been merged into ASE and received maintenance from [different people](https://gitlab.com/ase/ase/blame/master/ase/calculators/castep.py).
 Secret sauce: keywords are processed from invoking CASTEP binary so the interface can automatically deal with newly implemented features in CASTEP Code.
 
-<hr />
-
 ### dbmi
 
 The [dbmi](https://github.com/mhoffman/dbmi) module implements the adsorbate-adsorbate interaction framework presented in [J. Phys. Chem. C, 2016, 120 (24), pp 13087–13094](https://dx.doi.org/10.1021/acs.jpcc.6b03375).
+
+<hr />
 
 ## Side Projects
 
