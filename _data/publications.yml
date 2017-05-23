@@ -1,3 +1,9 @@
+- title: "Bottom Up Design of a Novel CuRu Nanoparticulate Catalyst for Low Temperature Ammonia Oxidationo"
+  authors: Debasish Chakraborty, Christian Damsgaard, Hugo Silva, Christian Conradsen, Hudson Carvalho, Benjamin Mutz, Thomas Bligaard, Max Hoffmann, Felix Studt, Ib Chorkendorff, Jakob Lind Olsen
+  date: 2016
+  journal: Angewandte Chemie International Edition
+  doi: 10.1002/anie.201703468
+
 - title: "A practical approach to the sensitivity analysis for kinetic Monte Carlo simulation of heterogeneous catalysis"
   authors: Max J. Hoffmann, Felix Engelmann, Sebastian Matera
   date: 2017
@@ -10,7 +16,7 @@
   journal: The Journal of Physical Chemistry C
   date: 2016
   doi: 10.1021/acs.jpcc.6b03375
-  
+
 - title: "Evidence for the Active Phase of Heterogeneous Catalysts through In Situ Reaction Product Imaging and Multiscale Modeling"
   authors: Matera, Sebastian and Blomberg, Sara and Hoffmann, Max and Zetterberg, Johan and Gustafson, Johan and Lundgren, Edvin and Reuter, Karsten
   journal: ACS Catalysis
