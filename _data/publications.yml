@@ -1,6 +1,6 @@
 - title: "Bottom Up Design of a Novel CuRu Nanoparticulate Catalyst for Low Temperature Ammonia Oxidationo"
-  authors: Debasish Chakraborty, Christian Damsgaard, Hugo Silva, Christian Conradsen, Hudson Carvalho, Benjamin Mutz, Thomas Bligaard, Max Hoffmann, Felix Studt, Ib Chorkendorff, Jakob Lind Olsen
-  date: 2016
+  authors:7Debasish Chakraborty, Christian Damsgaard, Hugo Silva, Christian Conradsen, Hudson Carvalho, Benjamin Mutz, Thomas Bligaard, Max Hoffmann, Felix Studt, Ib Chorkendorff, Jakob Lind Olsen
+  date: 2017
   journal: Angewandte Chemie International Edition
   doi: 10.1002/anie.201703468
 
@@ -33,28 +33,28 @@
 
 - title: "Multi-lattice Kinetic Monte Carlo Simulations from First Principles: Reduction of the Pd(100) Surface Oxide by CO"
   authors: Max Hoffmann, Matthias Scheffler, Karsten Reuter
-  date: 2015/1/7
+  date: 2015
   journal: ACS Catalysis
   doi: 10.1021/cs501352t
   arxiv: 1501.01710
 
 - title: "CO Oxidation on Pd (100) Versus PdO (101)-(\ sqrt {5}\ times\ sqrt {5}) R27^{\ circ}: First-Principles Kinetic Phase Diagrams and Bistability Conditions"
   authors: Max J Hoffmann, Karsten Reuter
-  date: 2014/2/1
+  date: 2014
   journal: Topics in Catalysis
   doi: 10.1007/s11244-013-0172-5
   arxiv: 1301.3285
 
 - title: "kmos: A lattice kinetic Monte Carlo framework"
   authors: Max J Hoffmann, Sebastian Matera, Karsten Reuter
-  date: 2014/7/31
+  date: 2014
   journal: Computer Physics Communications
   doi: 10.1016/j.cpc.2014.04.003
   arxiv: 1401.5278
 
 - title: "In situ X-ray photoelectron spectroscopy of model catalysts: At the edge of the gap"
   authors: S Blomberg, MJ Hoffmann, J Gustafson, NM Martin, VR Fernandes, A Borg, Z Liu, R Chang, S Matera, K Reuter, E Lundgren
-  date: 2013/3/12
+  date: 2013
   journal: Physical Review Letters
   doi: 10.1103/PhysRevLett.110.117601
   arxiv: 1302.1388
