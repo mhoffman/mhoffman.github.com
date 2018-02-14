@@ -13,7 +13,7 @@ title: mhoffman.github.com/projects/
 
 ### CatApp Browser
 
-[CatApp Browser](http://catapp-browser.herokuapp.com/) is a React frontend for the CatApp database.
+[CatApp Browser](http://catapp-browser.herokuapp.com/) is a React frontend for the CatApp database. More soon under [Catalysis-Hub.org](http://catalysis-hub.org/).
 
 
 ### Castep ASE Calculator
