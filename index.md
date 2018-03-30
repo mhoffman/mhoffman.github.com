@@ -4,7 +4,7 @@ title: mhoffman.github.io ~ Notes about heterogeneous catalysis, software, and m
 ---
 
 <div align="right">
-    <image src="{{ site.url}}/images/MH_cropped.png" alt="Picture of Max Hoffmann"/>
+    <image src="{{ site.url}}/images/MH_cropped_circle.png" alt="Picture of Max Hoffmann"/>
 </div>
 
 # Welcome
