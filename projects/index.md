@@ -43,13 +43,16 @@ The [dbmi](https://github.com/mhoffman/dbmi) module implements the adsorbate-ads
 
 ## Side Projects
 
-### Made In Democracy
-
-A simple [mobile app](https://expo.io/@mjhoffmann/MadeInDemocracy) [(source)](https://github.com/mhoffman/MadeInDemocracy) that let's you look-up indicators from your phone about the state of democracy, worker's rights, and freedom of press while shopping.
-
 ### nmrfmo
 
 [nmrfmo](https://expo.io/@mhoffman/nmrfmo) is a React Native app that summarizes events from over 200 website on a single map.
+
+![](../images/nmrfmo-app-screenshot.png)
+*[Screenshot from nmrfmo Expo page](https://expo.io/@mhoffman/nmrfmo)*
+
+### Made In Democracy
+
+A simple [mobile app](https://expo.io/@mjhoffmann/MadeInDemocracy) [(source)](https://github.com/mhoffman/MadeInDemocracy) that let's you look-up indicators from your phone about the state of democracy, worker's rights, and freedom of press while shopping.
 
 ### wikiexplore
 
