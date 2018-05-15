@@ -10,7 +10,7 @@ title: mhoffman.github.com/projects/
 [Catalysis Hub](http://www.catalysis-hub.org/) is a React frontend for the Catalysis Hub database. More soon under [Catalysis-Hub.org](http://catalysis-hub.org/). Documentation at [ReadTheDocs](http://docs.catalysis-hub.org). Testing at [Travis CI](https://travis-ci.org/).
 
 
-![]("images/catalysis-hub-org.png")
+![](../images/catalysis-hub-org.png)
 *Screenshot of catalysis-hub.org*
 
 
