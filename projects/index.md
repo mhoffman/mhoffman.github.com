@@ -22,7 +22,7 @@ title: mhoffman.github.com/projects/
 
 ### Castep ASE Calculator
 
-![](../images/ase-castep-calculators.png)
+![](../images/ase-castep-calculator.png)
 *[Readme for ASE Castep calculator](https://wiki.fysik.dtu.dk/ase/ase/calculators/castep.html)*
 
 The [Castep interface](https://gitlab.com/ase/ase/blame/master/ase/calculators/castep.py) is a python module that was initially developed with [Joerg Meyer](https://scholar.google.com/citations?user=zvVgmmEAAAAJ&hl=en),
