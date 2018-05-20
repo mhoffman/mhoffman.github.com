@@ -4,7 +4,7 @@ title: mhoffman.github.io ~ Notes about heterogeneous catalysis, software, and m
 ---
 
 <div align="right">
-    <image src="{{ site.url}}/images/MH_cropped_circle.png" alt="Picture of Max Hoffmann"/>
+<image src="{{ site.url}}/images/MH_cropped_circle.png" alt="Picture of Max Hoffmann"/>
 </div>
 
 # Welcome
@@ -17,4 +17,26 @@ Please feel free to have a look around and help yourself if you find anything us
 
 <hr />
 
-<script type="text/javascript" src="https://asciinema.org/a/8cpmnfyszo0tbek4envoxhz8f.js" id="asciicast-8cpmnfyszo0tbek4envoxhz8f" async></script>
+<div class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+</ol>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<a href="https://www.catalysis-hub.org/" target="_blank">
+<img src="../images/catalysis-hub-org-structure.png" />
+</a>
+</div>
+<div class="carousel-item">
+<a href="https://asciinema.org/a/124484" target="_blank"><img src="https://asciinema.org/a/124484.png" /></a>
+</div>
+<div class="carousel-item">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J8-Ion2I3eA" frameborder="0" allowfullscreen></iframe>
+</div>
+<div class="carousel-item">
+<a href="https://expo.io/@mhoffman/nmrfmo" target="_blank"><img src="../images/screenshot-nmrfmo.png" /></a>
+</div>
+</div>
