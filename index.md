@@ -23,6 +23,7 @@ Please feel free to have a look around and help yourself if you find anything us
 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
 </ol>
 <div class="carousel-inner">
 <div class="carousel-item active">
@@ -38,5 +39,8 @@ Please feel free to have a look around and help yourself if you find anything us
 </div>
 <div class="carousel-item">
 <a href="https://expo.io/@mhoffman/nmrfmo" target="_blank"><img src="../images/screenshot-nmrfmo.png" /></a>
+</div>
+<div class="carousel-item">
+<a href="http://nbviewer.jupyter.org/gist/mhoffman/ef779fb7d925edd70ab0e0ff25eee696" target="_blank"><img src="../images/nyc_taxi_cluster.jpg" /></a>
 </div>
 </div>
