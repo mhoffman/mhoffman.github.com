@@ -1,4 +1,4 @@
---
+---
 layout: default
 title: mhoffman.github.com/photos/
 ---
