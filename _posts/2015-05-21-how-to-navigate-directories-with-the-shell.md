@@ -10,10 +10,17 @@ title: How to navigate directories faster with bash
 During my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the command-line *changing directories* is an extremely frequent activity.  In fact changing directories is the basic mode of operation to walk between different tasks, context, or work spaces. When I first started  using the shell the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share the 4 tricks I use frequently to jump to directories which not only helps me to work faster but also helps me to concentrate more on the content of work and less on the cognitive load of remembering long subdirectories. Furthermore I use all tricks together for maximum efficiency and I hope they make you more productive, too.
 
 
-## Max Out cd
+* [Max Out](#max-out)
+* [$CDPATH](#cdpath)
+* [pushd](#pushd)
+* [history](#history)
 
 
-This first tip focuses solely on using all capabilities of the `cd` command.  The most common form of using `cd` is
+## Max Out cd <a id='max-out'></a>
+
+
+
+This tip focuses solely on using all capabilities of the `cd` command.  The most common form of using `cd` is
 
     cd directory
 
@@ -46,7 +53,7 @@ and you are there.
 
 [up](#top)
 
-## Configure $CDPATH to your workflow
+## Configure $CDPATH to your workflow <a id='cdpath'></a>
 
 The next tip is efficient use of the `CDPATH` variable. Almost everyone using a shell is familiar with the importance of the `PATH` variable. The `PATH` variable means that whenever one enters a `command` the shell will look up the directories listed in the `PATH`, search for executable files and then executes the first executable it finds named `command` in the order listed in `PATH`.
 
@@ -75,7 +82,7 @@ which automatically corrects small typos in directory names and jumps to the bes
 
 [up](#top)
 
-## Turbo-charge cd with push/popd
+## Turbo-charge cd with pushd/popd  <a id='pushd'></a>
 
 Another command less well known than `cd` is `pushd` and `popd`.  `pushd` stands for *push directory* and it changes the current working directory but also *pushes* the directory that one left onto a history stack.  `popd` on the other hand stands for *pop directory* which *pops* the last visited directory from the history stack. The command `dirs` lists the directories currently stacked on the history. So for example
 
@@ -122,7 +129,7 @@ You can still use `dirs` to list the history and adjust the function above to yo
 
 [up](#top)
 
-## Jump more efficiently into the history
+## Jump more efficiently into the history <a id='history'></a>
 
 
 The last tip is a short but powerful one to faster reuse commands from the history. Basically the up-arrow jumps to the previous command in the history. However this quickly becomes very tedious if one jumps 5 or 10 or more commands back in history. Instead if
