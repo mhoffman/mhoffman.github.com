@@ -9,13 +9,13 @@ title: mhoffman.github.io ~ Notes about heterogeneous catalysis, software, and m
 
 # Welcome
 
-It's Max, I am glad you found my website. I am a researcher at Stanford's [SUNCAT](http://suncat.slac.stanford.edu/) Institute for Sustainable eNergy through CATalysis. I develop methods and tools to build better models for predicting the activity and selectivity of heterogeneous catalysts on an atomistic level. 
+It's Max, I am glad you found my website. I am a computational physicist at Stanford's [SUNCAT](http://suncat.slac.stanford.edu/) Institute for Sustainable eNergy through CATalysis. I develop methods and tools to build better models for predicting the activity and selectivity of heterogeneous catalysts on an atomistic level. 
 
 In my research I aim for a better fundamental understanding of the intricate interplay between morphology, co-adsorbate interactions, adlayer formation, and reaction conditions of catalytic processes. Currently, I explore the significance of adlayer formation on transition and coinage metals in the context of activity trend studies.
 
 Please feel free to have a look around and help yourself if you find anything useful.
 
-<hr />
+<div class="card-1 padded">
 
 <div class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
@@ -42,5 +42,6 @@ Please feel free to have a look around and help yourself if you find anything us
 </div>
 <div class="carousel-item">
 <a href="http://nbviewer.jupyter.org/gist/mhoffman/ef779fb7d925edd70ab0e0ff25eee696" target="_blank"><img src="../images/nyc_taxi_cluster.jpg" /></a>
+</div>
 </div>
 </div>
