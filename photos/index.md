@@ -85,7 +85,7 @@ title: mhoffman.github.com/photos/
 <a target="_blank" href="./soothing_photos/photo_016.jpg">
 ![](./soothing_photos/photo_016.jpg)
 </a>
-*Nice Spot*
+*Sweet Spot*
 
 <a target="_blank" href="./soothing_photos/photo_017.jpg">
 ![](./soothing_photos/photo_017.jpg)
