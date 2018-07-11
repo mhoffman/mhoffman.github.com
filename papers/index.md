@@ -5,6 +5,8 @@ title: mhoffman.github.com/papers/
 
 # Papers
 
+<hr />
+
 {% for paper in site.data.publications %}
 1. **{{ paper.title}}**
 
