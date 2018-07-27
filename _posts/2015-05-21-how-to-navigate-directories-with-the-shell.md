@@ -7,7 +7,9 @@ title: How to navigate directories faster with bash
 
 
 
-*Changing directories* is an extremely frequent activity during my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the terminal.  In fact changing directories is the basic mode of operation to walk between different tasks, context, or work spaces. When I first started  using the terminal the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share five tricks I use frequently to jump between directories. They not only help me to move faster but also reduces the cognitive load of remembering long subdirectories. Furthermore, I use all tricks together for maximum efficiency and I hope they make you more productive, too.
+*Changing directories* is an extremely frequent activity during my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the terminal.  In fact, changing directories is the basic mode of operation to walk between different tasks, context, or work spaces.
+
+When I first started  using the terminal the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share five tricks I use frequently to jump between directories. They not only help me to move faster but also reduces the cognitive load of remembering long subdirectories. Furthermore, I use all tricks together for maximum efficiency and I hope they make you more productive, too.
 
 
 * [Max Out cd](#max-out)
