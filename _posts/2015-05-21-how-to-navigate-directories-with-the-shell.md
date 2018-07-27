@@ -78,7 +78,7 @@ So there is a closely related variable named CDPATH which is the analog for `cd`
 
 `cd` will search all directories listed in `CDPATH` and jump to the first directory it finds in the order listed in `CDPATH`. The default setting is `CDPATH=.`, which means `cd` only searches the current working directory.  But there is no reason to stop where. My `~/.bashrc` contains export CDPATH=.:~:~/src:~/calculations:~/ssh_mounts
 
-With this line I can always directly jump directly to any directory below the current directory, the home directory, a directory named `src` for software projects, a directory for `calculations`, and a directory named `ssh_mounts` that may link to other servers linked via the [sshfs](http://de.wikipedia.org/wiki/SSHFS) program.
+With this line I can always directly jump directly to any directory below the current directory, the home directory, a directory named `src` for software projects, a directory for `calculations`, and a directory named `ssh_mounts` that may link to other servers linked via the [sshfs](https://de.wikipedia.org/wiki/SSHFS) program.
 
 This helps to keep directories for different types of activities apart while also allowing for quick changes between them. It is more powerful if one has only one `~/.bashrc` for all user accounts and synchronizes it using e.g. [git](https://git-scm.com/), and bash completion
 
@@ -196,7 +196,7 @@ you put
     bind '"\e[A":history-search-backward'
     bind '"\e[B":history-search-forward'
 
-into your `/.bashrc` and start typing part of a command it will only jump to those commands in the history which start with the same fragment of a command. This is useful for any command line work and you may already know if from e.g. [IPython](http://ipython.org/) but it is also useful for `cd`. So
+into your `/.bashrc` and start typing part of a command it will only jump to those commands in the history which start with the same fragment of a command. This is useful for any command line work and you may already know if from e.g. [IPython](https://ipython.org/) but it is also useful for `cd`. So
 
     cd <up-arrow><up-arrow> ...
 
