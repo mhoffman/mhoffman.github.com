@@ -93,7 +93,11 @@ Another neat bash option is
 
     shopt -s cdspell
 
-which automatically corrects small typos in directory names and jumps to the best guess of existing directories.
+which automatically corrects small typos in directory names and jumps to the best guess of existing directories. Or
+
+    complete -d cd
+
+which causes tab-completion after typing `cd` to only suggest directories.
 
 [up](#top)
 
