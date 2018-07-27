@@ -7,10 +7,10 @@ title: How to navigate directories faster with bash
 
 
 
-During my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the command-line *changing directories* is an extremely frequent activity.  In fact changing directories is the basic mode of operation to walk between different tasks, context, or work spaces. When I first started  using the shell the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share the five tricks I use frequently to jump to directories which not only helps me to work faster but also helps me to concentrate more on the content of work and less on the cognitive load of remembering long subdirectories. Furthermore I use all tricks together for maximum efficiency and I hope they make you more productive, too.
+*Changing directories* is an extremely frequent activity during my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the terminal.  In fact changing directories is the basic mode of operation to walk between different tasks, context, or work spaces. When I first started  using the terminal the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share five tricks I use frequently to jump between directories. They not only help me to move faster but also reduces the cognitive load of remembering long subdirectories. Furthermore, I use all tricks together for maximum efficiency and I hope they make you more productive, too.
 
 
-* [Max Out](#max-out)
+* [Max Out cd](#max-out)
 * [$CDPATH](#cdpath)
 * [pushd](#pushd)
 * [history](#history)
@@ -30,7 +30,7 @@ where `directory` can be either a `./relative` or an `/absolute` path. Also quit
 
     cd
 
-Furthermore `-` is an alias for the previous directory. So `cd -` is like a back-button for `cd` that works for exactly one step in the history. Using `cd -` repeatedly results in jumping back and forth between two directories.
+Furthermore `-` is an alias for the previous directory. So `cd -` is like a back-button for `cd` that works for exactly one step in the history. Using `cd -` repeatedly toggles between two directories.
 
 I also find it useful to alias `cd ..` like
 
@@ -38,10 +38,18 @@ I also find it useful to alias `cd ..` like
 
 and there is no reason to stop there, so adding
 
+    alias ..="cd .."
     alias ...="cd ../.."
-    alias ....="cd ../../../"
+    alias ....="cd ../../.."
     alias .....="cd ../../../.."
-    ....
+    alias ......="cd ../../../../.."
+    alias .......="cd ../../../../../.."
+    alias ........="cd ../../../../../../.."
+    alias .........="cd ../../../../../../../.."
+    alias ..........="cd ../../../../../../../../.."
+    alias ...........="cd ../../../../../../../../../.."
+    alias ............="cd ../../../../../../../../../../.."
+    alias .............="cd ../../../../../../../../../../../.."
 
 can bring you up many more directories by just adding dots (...) :-).
 
@@ -178,13 +186,13 @@ You get the picture.
 ## Jump more efficiently into the history
 
 
-The last tip is a short but powerful one to faster reuse commands from the history. Basically the up-arrow jumps to the previous command in the history. However this quickly becomes very tedious if one jumps 5 or 10 or more commands back in history. Instead if
+The last tip aims for faster retrieval of commands from history. Usually, the up-arrow jumps to the previous command in the history. However this quickly becomes very tedious if one jumps 5 or 10 or more commands back in history. Instead if
 you put
 
     bind '"\e[A":history-search-backward'
-    bind '"\e[A":history-search-backward'
+    bind '"\e[B":history-search-forward'
 
-into your `/.bashrc` and had started typing part of a command it will only jump to those commands in the history that also start with the same fragment of a command. This is actually quite useful for any command line work and therefore the default setting in [IPython](http://ipython.org/) but also useful for `cd`. So
+into your `/.bashrc` and start typing part of a command it will only jump to those commands in the history which start with the same fragment of a command. This is useful for any command line work and you may already know if from e.g. [IPython](http://ipython.org/) but it is also useful for `cd`. So
 
     cd <up-arrow><up-arrow> ...
 
