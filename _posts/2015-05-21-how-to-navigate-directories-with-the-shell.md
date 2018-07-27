@@ -17,7 +17,8 @@ During my everyday work as a knowledge worker running calculations, analyzing da
 * [latest file](#lf)
 
 
-## Max Out cd <a id='max-out'></a>
+<a id='max-out'></a>
+## Max Out cd
 
 
 
@@ -54,7 +55,8 @@ and you are there.
 
 [up](#top)
 
-## Configure $CDPATH to your workflow <a id='cdpath'></a>
+<a id='cdpath'></a>
+## Configure $CDPATH to your workflow
 
 The next tip is efficient use of the `CDPATH` variable. Almost everyone using a shell is familiar with the importance of the `PATH` variable. The `PATH` variable means that whenever one enters a `command` the shell will look up the directories listed in the `PATH`, search for executable files and then executes the first executable it finds named `command` in the order listed in `PATH`.
 
@@ -83,7 +85,8 @@ which automatically corrects small typos in directory names and jumps to the bes
 
 [up](#top)
 
-## Turbo-charge cd with pushd/popd  <a id='pushd'></a>
+<a id='pushd'></a>
+## Turbo-charge cd with pushd/popd
 
 Another command less well known than `cd` is `pushd` and `popd`.  `pushd` stands for *push directory* and it changes the current working directory but also *pushes* the directory that one left onto a history stack.  `popd` on the other hand stands for *pop directory* which *pops* the last visited directory from the history stack. The command `dirs` lists the directories currently stacked on the history. So for example
 
@@ -130,7 +133,8 @@ You can still use `dirs` to list the history and adjust the function above to yo
 
 [up](#top)
 
-## lf = latest file <a id='lf'></a>
+<a id='lf'></a>
+## lf = latest file
 
 When I type `ls` to inspect to contents of the current directory and decide
 if want to move to one of the subdirectories: why do I have to type it again
@@ -170,7 +174,8 @@ You get the picture.
 
 [up](#top)
 
-## Jump more efficiently into the history <a id='history'></a>
+<a id='history'></a>
+## Jump more efficiently into the history
 
 
 The last tip is a short but powerful one to faster reuse commands from the history. Basically the up-arrow jumps to the previous command in the history. However this quickly becomes very tedious if one jumps 5 or 10 or more commands back in history. Instead if
