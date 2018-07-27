@@ -7,13 +7,14 @@ title: How to navigate directories faster with bash
 
 
 
-During my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the command-line *changing directories* is an extremely frequent activity.  In fact changing directories is the basic mode of operation to walk between different tasks, context, or work spaces. When I first started  using the shell the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share the 4 tricks I use frequently to jump to directories which not only helps me to work faster but also helps me to concentrate more on the content of work and less on the cognitive load of remembering long subdirectories. Furthermore I use all tricks together for maximum efficiency and I hope they make you more productive, too.
+During my everyday work as a knowledge worker running calculations, analyzing data, and developing code from the command-line *changing directories* is an extremely frequent activity.  In fact changing directories is the basic mode of operation to walk between different tasks, context, or work spaces. When I first started  using the shell the only command I knew was `cd` but throughout the years I noticed that there is a lot more under the hood of bash that significantly reduces the time needed to change directories. Below I share the five tricks I use frequently to jump to directories which not only helps me to work faster but also helps me to concentrate more on the content of work and less on the cognitive load of remembering long subdirectories. Furthermore I use all tricks together for maximum efficiency and I hope they make you more productive, too.
 
 
 * [Max Out](#max-out)
 * [$CDPATH](#cdpath)
 * [pushd](#pushd)
 * [history](#history)
+* [latest file](#lf)
 
 
 ## Max Out cd <a id='max-out'></a>
@@ -126,6 +127,46 @@ Extra bells and whistles in those function are
 - if the `cd` argument is a file instead of a directory it will assume that you want to edit it as a text file and open it in you favorite editor.
 
 You can still use `dirs` to list the history and adjust the function above to your taste.
+
+[up](#top)
+
+## lf = latest file <a id='lf'></a>
+
+When I type `ls` to inspect to contents of the current directory and decide
+if want to move to one of the subdirectories: why do I have to type it again
+(or at least enough for Tab completion to work), even though the directory name
+is already on the screen? This is the idea behind aliases like
+
+    alias lln="ls -lhtr  --time-style long-iso | tac | cat -n | tac | sed -s 's/^\s*\([0-9]*\)\s*\(.*\)/[\1]  \2 [\1]/'g && pwd"
+    function lf() {
+        if [ "x${1}" == "x" ]
+        then
+            n=1 
+        else
+            n="${1}"
+        fi  
+        ls -rt1 | tail -n ${n} | head -n 1
+    }
+
+Now, typing `lln` will show the contents of the current directory ordered
+by time with the latest file at the bottom. But you will also notice that
+each line is flanked by an index starting with the latest file at 1. Now
+typing
+    
+    lf 1
+
+or `lf` (1 is the default argument) will produce the filename assigned
+to the index one. If this is a directory, I can issue `cd $(lf 1)` to change
+into the latest directory. Of course, I can combine `lf` with any other
+command, like e.g.
+
+    vi $(lf 3)
+
+or
+
+    python $(lf 5)
+
+You get the picture.
 
 [up](#top)
 
