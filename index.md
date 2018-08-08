@@ -3,11 +3,12 @@ layout: default
 title: mhoffman.github.io ~ Notes about heterogeneous catalysis, software, and more.
 ---
 
-<div align="right">
-<image src="{{ site.url}}/images/MH_cropped_circle.png" alt="Picture of Max Hoffmann"/>
-</div>
 
 # Welcome
+
+<img src="{{ site.url}}/images/MH_cropped_circle.png" alt="Picture of Max Hoffmann"
+style="float: right; "
+/>
 
 It's Max, I am glad you found my website. I am a computational physicist at Stanford's [SUNCAT](https://suncat.slac.stanford.edu/) Institute for Sustainable eNergy through CATalysis. I develop methods and tools to build better models for predicting the activity and selectivity of heterogeneous catalysts on an atomistic level. 
 
