@@ -15,25 +15,25 @@
 
         <style>
 .card-1 {
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-  margin-bottom: 40px;
-  padding: 15px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: 40px;
+    padding: 15px;
 }
 .card-1 img {
     margin-bottom: 40px;
 }
 
 .card-1:hover {
-  box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+    box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
 }
 
 .card-2 {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  background-color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-color: #fff;
 }
 .padded {
-    padding: 15px;
+    padding: 25px;
 }
 
 body {
@@ -87,20 +87,27 @@ header ul {
     <body>
         <div class="wrapper">
             <header class="card-2 padded">
-                <h2><a href="/">Max J. Hoffmann</a></h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-12">
+                        <h2><a href="/">Max J. Hoffmann</a></h2>
 
-                <p class="view"><a href="/projects">Projects <small>Code that Might be Useful to You</small></a></p>
-                <p class="view"><a href="/papers">Papers <small>That are out there</small></a></p>
-                <p class="view"><a href="/speaking">Talks <small>Mostly on simulating multi-scale surface science phenomena</small></a></p>
-                <p class="view"><a href="/posts">Blog <small>For some random reading</small></a></p>
-                <p class="view"><a href="/photos">Photos <small>Something Soothing for the Eyes</small></a></p>
-                <p class="view"><a href="https://drive.google.com/open?id=1AlwHmxOJ8mB6CG-zNvR-e-h99jYv0YF4" target="_blank">R&eacute;sum&eacute;</a></p>
+                        <p class="view"><a href="/projects">Projects <small>Code that Might be Useful to You</small></a></p>
+                        <p class="view"><a href="/papers">Papers <small>That are out there</small></a></p>
+                        <p class="view"><a href="/speaking">Talks <small>Mostly on simulating surface science phenomena</small></a></p>
+                        <p class="view"><a href="/posts">Blog <small>For some random reading</small></a></p>
+                        <p class="view"><a href="/photos">Photos <small>Something Soothing for the Eyes</small></a></p>
+                        <p class="view"><a href="https://drive.google.com/open?id=1AlwHmxOJ8mB6CG-zNvR-e-h99jYv0YF4" target="_blank">R&eacute;sum&eacute;</a></p>
 
-                <h3>I'm also on</h3>
-                <p class="view"><a href="https://github.com/mhoffman" target="tab">GitHub</a> | <a href="http://resume.github.io/?mhoffman" target="tab">Summary</a> | <a href="https://gist.github.com/mhoffman" target="tab">Gists</a>  | <a href="https://expo.io/@mhoffman" target="tab">Expo</a> <br /><small>If you code</small>
-            <p class="view"><a href="https://twitter.com/maxjhoffmann" target="tab">Twitter</a><br /><small>If you tweet</small>
-        <p class="view"><a href="http://suncat.stanford.edu/theory/people/max-hoffmann" target="tab">SUNCAT</a>&nbsp;|&nbsp;<a href="https://scholar.google.com/citations?user=eTOlSCwAAAAJ&hl=en">Google Scholar</a><br /><small>If you research</small>
-    <p class="view"><a href="http://www.linkedin.com/in/maxjhoffmann/en" target="tab">LinkedIn</a><br /><small>If you network</small>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-12 ">
+                        <h3>I'm also on</h3>
+                        <p class="view"><a href="https://github.com/mhoffman" target="tab">GitHub</a> | <a href="http://resume.github.io/?mhoffman" target="tab">Summary</a> | <a href="https://gist.github.com/mhoffman" target="tab">Gists</a>  | <a href="https://expo.io/@mhoffman" target="tab">Expo</a> <br /><small>If you code</small>
+                        <p class="view"><a href="https://twitter.com/maxjhoffmann" target="tab">Twitter</a><br /><small>If you tweet</small>
+                        <p class="view"><a href="http://suncat.stanford.edu/theory/people/max-hoffmann" target="tab">SUNCAT</a>&nbsp;|&nbsp;<a href="https://scholar.google.com/citations?user=eTOlSCwAAAAJ&hl=en">Google Scholar</a><br /><small>If you research</small>
+                        <p class="view"><a href="http://www.linkedin.com/in/maxjhoffmann/en" target="tab">LinkedIn</a><br /><small>If you network</small>
+                    </div>
+                </div>
 
             </header>
             <section id="main" class="card-2 padded">
@@ -117,13 +124,13 @@ header ul {
 ga('create', 'UA-75158660-1', 'auto');
 ga('send', 'pageview');
 
-            var a = document.getElementsByTagName('a');
-            for(i = 0; i < a.length; i++){
-                if (a[i].href.indexOf(location.host) == -1 &&
-                    a[i].href.match(/^https?:\/\//i)){
-                    a[i].onclick = function(e){
-                    ga('send', 'event', 'open', 'outgoing_links', this.href.replace(/^https?:\/\/(www.)?/i, ''));
-            } } }
+var a = document.getElementsByTagName('a');
+for(i = 0; i < a.length; i++){
+    if (a[i].href.indexOf(location.host) == -1 &&
+        a[i].href.match(/^https?:\/\//i)){
+        a[i].onclick = function(e){
+            ga('send', 'event', 'open', 'outgoing_links', this.href.replace(/^https?:\/\/(www.)?/i, ''));
+        } } }
 
         </script>
 
