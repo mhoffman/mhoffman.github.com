@@ -7,7 +7,7 @@ title: mhoffman.github.com/photos/
 
 ### _Something Soothing for the Eyes_
 
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_001.jpg">
 ![](./soothing_photos/photo_001.jpg)
@@ -15,7 +15,7 @@ title: mhoffman.github.com/photos/
 *A Strange Boat*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_002.jpg">
 ![](./soothing_photos/photo_002.jpg)
@@ -23,7 +23,7 @@ title: mhoffman.github.com/photos/
 *New Shape*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_003.jpg">
 ![](./soothing_photos/photo_003.jpg)
@@ -31,7 +31,7 @@ title: mhoffman.github.com/photos/
 *Live Oak*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_004.jpg">
 ![](./soothing_photos/photo_004.jpg)
@@ -39,7 +39,7 @@ title: mhoffman.github.com/photos/
 *Quo Vadis*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_005.jpg">
 ![](./soothing_photos/photo_005.jpg)
@@ -47,7 +47,7 @@ title: mhoffman.github.com/photos/
 *Curious*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_006.jpg">
 ![](./soothing_photos/photo_006.jpg)
@@ -55,7 +55,7 @@ title: mhoffman.github.com/photos/
 *Watchman*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_007.jpg">
 ![](./soothing_photos/photo_007.jpg)
@@ -63,7 +63,7 @@ title: mhoffman.github.com/photos/
 *Almost Floating*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_008.jpg">
 ![](./soothing_photos/photo_008.jpg)
@@ -71,7 +71,7 @@ title: mhoffman.github.com/photos/
 *Hairy*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_009.jpg">
 ![](./soothing_photos/photo_009.jpg)
@@ -79,7 +79,7 @@ title: mhoffman.github.com/photos/
 *Walt Disney*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_010.jpg">
 ![](./soothing_photos/photo_010.jpg)
@@ -87,7 +87,7 @@ title: mhoffman.github.com/photos/
 *Walk in the Park*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_011.jpg">
 ![](./soothing_photos/photo_011.jpg)
@@ -95,7 +95,7 @@ title: mhoffman.github.com/photos/
 *Contrasts*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_012.jpg">
 ![](./soothing_photos/photo_012.jpg)
@@ -103,7 +103,7 @@ title: mhoffman.github.com/photos/
 *Two Trees in DC*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_013.jpg">
 ![](./soothing_photos/photo_013.jpg)
@@ -111,7 +111,7 @@ title: mhoffman.github.com/photos/
 *Rainbow Pool*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_014.jpg">
 ![](./soothing_photos/photo_014.jpg)
@@ -119,7 +119,7 @@ title: mhoffman.github.com/photos/
 *A Sweet Spot*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_015.jpg">
 ![](./soothing_photos/photo_015.jpg)
@@ -127,7 +127,7 @@ title: mhoffman.github.com/photos/
 *Zion Canyon*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_016.jpg">
 ![](./soothing_photos/photo_016.jpg)
@@ -135,7 +135,7 @@ title: mhoffman.github.com/photos/
 *Sweet Spot*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_017.jpg">
 ![](./soothing_photos/photo_017.jpg)
@@ -143,7 +143,7 @@ title: mhoffman.github.com/photos/
 *Bing*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_018.jpg">
 ![](./soothing_photos/photo_018.jpg)
@@ -151,7 +151,7 @@ title: mhoffman.github.com/photos/
 *Signal vs Noise*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_019.jpg">
 ![](./soothing_photos/photo_019.jpg)
@@ -159,7 +159,7 @@ title: mhoffman.github.com/photos/
 *Green Gems*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_020.jpg">
 ![](./soothing_photos/photo_020.jpg)
@@ -167,7 +167,7 @@ title: mhoffman.github.com/photos/
 *Green Valley*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_021.jpg">
 ![](./soothing_photos/photo_021.jpg)
@@ -175,7 +175,7 @@ title: mhoffman.github.com/photos/
 *The Dish II*
 
 </div>
-<div class="card-1 padded" markdown="1">
+<div class="bottom-padded card-1 padded" markdown="1">
 
 <a target="_blank" href="./soothing_photos/photo_022.jpg">
 ![](./soothing_photos/photo_022.jpg)
