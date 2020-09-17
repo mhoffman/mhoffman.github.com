@@ -1,4 +1,4 @@
-- title: "Catalysis-Hub.org, an open electronic structure database for surface reactions"
+- title: "Catalysis-Hub.org, an open electronic structure database for surface reactions."
   authors: Kirsten T. Winther, Max J. Hoffmann, Jacob R. Boes, Osman Mamun, Michal Bajdich, Thomas Bligaard
   date: 2019
   journal: Nature Scientific Data
@@ -19,26 +19,26 @@
   doi: 10.1016/j.cattod.2018.02.042
   pdf: https://www.osti.gov/pages/servlets/purl/1461966
 
-- title: "Bottom Up Design of a Novel CuRu Nanoparticulate Catalyst for Low Temperature Ammonia Oxidation"
+- title: "Bottom Up Design of a Novel CuRu Nanoparticulate Catalyst for Low Temperature Ammonia Oxidation."
   authors: Debasish Chakraborty, Christian Damsgaard, Hugo Silva, Christian Conradsen, Hudson Carvalho, Benjamin Mutz, Thomas Bligaard, Max Hoffmann, Felix Studt, Ib Chorkendorff, Jakob Lind Olsen
   date: 2017
   journal: Angewandte Chemie International Edition
   doi: 10.1002/anie.201703468
 
-- title: "A practical approach to the sensitivity analysis for kinetic Monte Carlo simulation of heterogeneous catalysis"
+- title: "A practical approach to the sensitivity analysis for kinetic Monte Carlo simulation of heterogeneous catalysis."
   authors: Max J. Hoffmann, Felix Engelmann, Sebastian Matera
   date: 2017
   journal: The Journal of Chemical Physics
   doi:  10.1063/1.4974261
   arxiv: 1611.07554
 
-- title: "A framework for scalable adsorbate-adsorbate interaction models"
+- title: "A framework for scalable adsorbate-adsorbate interaction models."
   authors: Max J Hoffmann, Andrew Medford, Thomas Bligaard
   journal: The Journal of Physical Chemistry C
   date: 2016
   doi: 10.1021/acs.jpcc.6b03375
 
-- title: "Evidence for the Active Phase of Heterogeneous Catalysts through In Situ Reaction Product Imaging and Multiscale Modeling"
+- title: "Evidence for the Active Phase of Heterogeneous Catalysts through In Situ Reaction Product Imaging and Multiscale Modeling."
   authors: Matera, Sebastian and Blomberg, Sara and Hoffmann, Max and Zetterberg, Johan and Gustafson, Johan and Lundgren, Edvin and Reuter, Karsten
   journal: ACS Catalysis
   date: 2015
@@ -52,28 +52,28 @@
   journal: Catalysis Letters
   doi: 10.1007/s10562-015-1495-6
 
-- title: "Multi-lattice Kinetic Monte Carlo Simulations from First Principles: Reduction of the Pd(100) Surface Oxide by CO"
+- title: "Multi-lattice Kinetic Monte Carlo Simulations from First Principles: Reduction of the Pd(100) Surface Oxide by CO."
   authors: Max Hoffmann, Matthias Scheffler, Karsten Reuter
   date: 2015
   journal: ACS Catalysis
   doi: 10.1021/cs501352t
   arxiv: '1501.01710'
 
-- title: "CO Oxidation on Pd (100) Versus PdO (101)-(\ sqrt {5}\ times\ sqrt {5}) R27^{\ circ}: First-Principles Kinetic Phase Diagrams and Bistability Conditions"
+- title: "CO Oxidation on Pd (100) Versus PdO (101)-(\ sqrt {5}\ times\ sqrt {5}) R27^{\ circ}: First-Principles Kinetic Phase Diagrams and Bistability Conditions."
   authors: Max J Hoffmann, Karsten Reuter
   date: 2014
   journal: Topics in Catalysis
   doi: 10.1007/s11244-013-0172-5
   arxiv: 1301.3285
 
-- title: "kmos: A lattice kinetic Monte Carlo framework"
+- title: "kmos: A lattice kinetic Monte Carlo framework."
   authors: Max J Hoffmann, Sebastian Matera, Karsten Reuter
   date: 2014
   journal: Computer Physics Communications
   doi: 10.1016/j.cpc.2014.04.003
   arxiv: 1401.5278
 
-- title: "In situ X-ray photoelectron spectroscopy of model catalysts: At the edge of the gap"
+- title: "In situ X-ray photoelectron spectroscopy of model catalysts: At the edge of the gap."
   authors: S Blomberg, MJ Hoffmann, J Gustafson, NM Martin, VR Fernandes, A Borg, Z Liu, R Chang, S Matera, K Reuter, E Lundgren
   date: 2013
   journal: Physical Review Letters
