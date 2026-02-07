@@ -6,13 +6,9 @@ title: mhoffman.github.io ~ Notes about heterogeneous catalysis, software, and m
 
 # Welcome
 
-<img src="{{ site.url}}/images/MH_cropped_circle.png" alt="Picture of Max Hoffmann"
-style="float: right; "
-/>
+It's Max, I am glad you found my website. I work as a Senior AI Engineer at Juna AI in Berlin, where I develop verification frameworks and optimize industrial processes using machine learning. My background spans ML engineering for safety-critical systems at Apple, autonomous vehicle software at Drive.ai, and computational research at Stanford's [SUNCAT](https://suncat.slac.stanford.edu/).
 
-It's Max, I am glad you found my website. I am a computational physicist at Stanford's [SUNCAT](https://suncat.slac.stanford.edu/) Institute for Sustainable eNergy through CATalysis. I develop methods and tools to build better models for predicting the activity and selectivity of heterogeneous catalysts on an atomistic level. 
-
-In my research I aim for a better fundamental understanding of the intricate interplay between morphology, co-adsorbate interactions, adlayer formation, and reaction conditions of catalytic processes. Currently, I explore the significance of adlayer formation on transition and coinage metals in the context of activity trend studies.
+I focus on making AI systems robust and reliable through rigorous testing, coverage-driven verification, and explainable models. I enjoy building tools that help bridge the gap between research and real-world applications.
 
 Please feel free to have a look around and help yourself if you find anything useful.
 
