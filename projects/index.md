@@ -11,11 +11,21 @@ title: mhoffman.github.com/projects/
 
 [Catalysis Hub](http://www.catalysis-hub.org/) is a React frontend for the Catalysis Hub database. More soon under [Catalysis-Hub.org](http://catalysis-hub.org/). Documentation at [ReadTheDocs](http://docs.catalysis-hub.org). Testing at [Travis CI](https://travis-ci.org/).
 
-
 ![](../images/catalysis-hub-org.png)
 *[Screenshot of catalysis-hub.org](Catalysis-Hub.Org)*
 
 </div>
+<div class="card-1 padded" markdown="1">
+
+### Made In Democracy
+
+A simple [web app](https://mhoffman.github.io/MadeInDemocracy/) [(source)](https://github.com/mhoffman/MadeInDemocracy) that let's you look-up indicators from your phone about the state of democracy, worker's rights, and freedom of press while shopping.
+
+  ![Screenshot of MadeInDemocracy](../images/made_in_democracy_screenshot.png)
+  [Screenshot of MadeInDemocracy](https://mhoffman.github.io/MadeInDemocracy/)
+
+</div>
+
 <div class="card-1 padded" markdown="1">
 
 ### kmos
@@ -45,12 +55,10 @@ Secret sauce: keywords are processed from invoking CASTEP binary so the interfac
 
 The [dbmi](https://github.com/mhoffman/dbmi) module implements the adsorbate-adsorbate interaction framework presented in [J. Phys. Chem. C, 2016, 120 (24), pp 13087–13094](https://dx.doi.org/10.1021/acs.jpcc.6b03375).
 
-
 ![](../images/dbmi-repository.png)
 *[Repository page of dbmi project.](https://wiki.fysik.dtu.dk/ase/ase/calculators/castep.html)*
 
 </div>
-
 
 ## Side Projects
 
@@ -66,18 +74,3 @@ The [dbmi](https://github.com/mhoffman/dbmi) module implements the adsorbate-ads
 </div>
 
 <div class="card-1 padded" markdown="1">
-
-### Made In Democracy
-
-A simple [mobile app](https://expo.io/@mjhoffmann/MadeInDemocracy) [(source)](https://github.com/mhoffman/MadeInDemocracy) that let's you look-up indicators from your phone about the state of democracy, worker's rights, and freedom of press while shopping.
-
-</div>
-
-<div class="card-1 padded" markdown="1">
-
-### wikiexplore
-
-[wikiexplore](http://wikiexplore.herokuapp.com/) is a single-page app that helps exploring one's geographical environment by leveraging the power of OpenStreetMap and Wikipedia. (Give it a second to load initially.)
-
-</div>
-
