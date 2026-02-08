@@ -308,6 +308,42 @@ for(i = 0; i < a.length; i++){
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script>
+        // Add swipe support for carousel
+        document.addEventListener('DOMContentLoaded', function() {
+            var carousel = document.querySelector('.carousel');
+            if (!carousel) return;
+
+            var touchStartX = 0;
+            var touchEndX = 0;
+            var minSwipeDistance = 50;
+
+            carousel.addEventListener('touchstart', function(e) {
+                touchStartX = e.changedTouches[0].screenX;
+            }, false);
+
+            carousel.addEventListener('touchend', function(e) {
+                touchEndX = e.changedTouches[0].screenX;
+                handleSwipe();
+            }, false);
+
+            function handleSwipe() {
+                var swipeDistance = touchEndX - touchStartX;
+
+                if (Math.abs(swipeDistance) > minSwipeDistance) {
+                    if (swipeDistance > 0) {
+                        // Swipe right - previous slide
+                        $('.carousel').carousel('prev');
+                    } else {
+                        // Swipe left - next slide
+                        $('.carousel').carousel('next');
+                    }
+                }
+            }
+        });
+        </script>
+
         <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
     </body>
 </html>

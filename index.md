@@ -14,7 +14,7 @@ Please feel free to have a look around and help yourself if you find anything us
 
 <div class="card-1 padded">
 
-<div class="carousel slide" data-ride="carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="1500">
 <ol class="carousel-indicators">
 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -30,7 +30,7 @@ Please feel free to have a look around and help yourself if you find anything us
 </div>
 
 <div class="carousel-item">
-<a href="https://mhoffman.github.io/MadeInDemocracy" target="_blank"><img src="../images/made_in_democrac-screenshot.png" /></a>
+<a href="https://mhoffman.github.io/MadeInDemocracy" target="_blank"><img src="../images/made_in_democracy_screenshot.png" /></a>
 </div>
 <div class="carousel-item">
 <a href="https://asciinema.org/a/124484" target="_blank"><img src="https://asciinema.org/a/124484.png" /></a>
