@@ -28,15 +28,21 @@ Please feel free to have a look around and help yourself if you find anything us
 <img src="../images/catalysis-hub-org-structure.png" />
 </a>
 </div>
+
+<div class="carousel-item">
+<a href="https://mhoffman.github.io/MadeInDemocracy" target="_blank"><img src="../images/made_in_democrac-screenshot.png" /></a>
+</div>
 <div class="carousel-item">
 <a href="https://asciinema.org/a/124484" target="_blank"><img src="https://asciinema.org/a/124484.png" /></a>
 </div>
+
 <div class="carousel-item">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/J8-Ion2I3eA" frameborder="0" allowfullscreen></iframe>
 </div>
 <div class="carousel-item">
 <a href="https://expo.io/@mhoffman/nmrfmo" target="_blank"><img src="../images/screenshot-nmrfmo.png" /></a>
 </div>
+
 <div class="carousel-item">
 <a href="https://nbviewer.jupyter.org/gist/mhoffman/ef779fb7d925edd70ab0e0ff25eee696" target="_blank"><img src="../images/nyc_taxi_cluster.jpg" /></a>
 </div>
