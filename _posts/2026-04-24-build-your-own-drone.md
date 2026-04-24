@@ -3,6 +3,8 @@ layout: default
 title: Build Your Own Drone
 ---
 
+# Build Your Own Drone
+
 You can buy a drone. You should probably buy a drone. But if you want to understand what's inside one, you have to build it, and the only way to build one well is to make every mistake available to you along the way.
 
 This isn't a step-by-step. It's the list of things I wish someone had told me before I started.
@@ -102,4 +104,3 @@ Neither of these rituals is written down in any one place. Both will cost you an
 Bare floors are bad for the optical flow sensor, some newspaper taped to the ground will help.
 
 The first hover is anticlimactic. The drone lifts off, holds position for a moment, settles back to the floor. You sit there grinning.
-
