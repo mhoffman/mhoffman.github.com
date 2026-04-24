@@ -1,4 +1,7 @@
-# Build Your Own Drone
+---
+layout: default
+title: Build Your Own Drone
+---
 
 You can buy a drone. You should probably buy a drone. But if you want to understand what's inside one, you have to build it, and the only way to build one well is to make every mistake available to you along the way.
 
