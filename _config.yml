@@ -2,3 +2,4 @@ source: ../mhoffman.github.com
 destination: _deploy
 kramdown:
     input: GFM
+    math_engine: ~

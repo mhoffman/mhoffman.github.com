@@ -80,9 +80,11 @@ The first two save the drone. The third saves your furniture.
 
 In order to fly at any rate or point the firmware uses various PID controls which depend on the exact dimensions and weights on your drone. To determine moments of inertia use the bifilar pendulum test which means you suspend the drone for each of the 3 dimension with two strings, flip it 15-20 degrees and measure the time for each period it takes to swing back and forth and use the following formula
 
-    I = (m · g · d² · T²) / (16 · π² · L)
+$$
+I = \frac{m g d^2 T^2}{16 \pi^2 L}
+$$
 
-where `m` is mass of drone, `g` is gravity, `d` is distance between strings, `T` is duration of period, `L` is length of strings.
+where \\(m\\) is mass of drone, \\(g\\) is gravity, \\(d\\) is distance between strings, \\(T\\) is duration of period, \\(L\\) is length of strings.
 
 ### Flashing and binding, the non-obvious parts
 
