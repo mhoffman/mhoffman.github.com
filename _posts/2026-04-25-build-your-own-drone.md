@@ -1,3 +1,5 @@
+# Build Your Own Drone
+
 You can buy a drone. You should probably buy a drone. But if you want to understand what's inside one, you have to build it, and the only way to build one well is to make every mistake available to you along the way.
 
 This isn't a step-by-step. It's the list of things I wish someone had told me before I started.
@@ -77,6 +79,7 @@ $$
 I = \frac{m g d^2 T^2}{16 \pi^2 L}
 $$
 where $m$ is mass of drone, $g$ is gravity, $d$ is distance between strings, $T$ is duration of period, $L$ is length of strings.
+
 ### Flashing and binding, the non-obvious parts
 
 To flash firmware: connect the CH340 to the FC's UART pads, then connect USB power to the ESC's XT60. Before you apply power, hold the BOOT button on the FC. Apply power. Wait one second. Release BOOT. The drone is now in DFU mode and ready to accept a firmware image.
@@ -95,4 +98,5 @@ Neither of these rituals is written down in any one place. Both will cost you an
 
 Bare floors are bad for the optical flow sensor, some newspaper taped to the ground will help.
 
-The first hover is anticlimactic. The drone lifts off, holds position for a moment, settles back to the floor. You sit there grinning. 
+The first hover is anticlimactic. The drone lifts off, holds position for a moment, settles back to the floor. You sit there grinning.
+
